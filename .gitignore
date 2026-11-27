@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.pt
+!yolo26n-pose.pt
+outputs/*
+!outputs/.gitkeep
+.pytest_cache/
+.streamlit/
