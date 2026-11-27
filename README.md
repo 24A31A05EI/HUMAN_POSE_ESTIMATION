@@ -5,6 +5,17 @@ A complete Streamlit application for detecting 17 COCO-format human body keypoin
 
 > This application is for educational and demonstration purposes. It is not a medical diagnostic or clinical assessment tool.
 
+# 🚀 PoseVision AI – Human Pose Estimation Using Deep Learning
+
+### AI-Powered Human Pose Estimation & Motion Analysis
+
+🌐 **Live Website:** https://posevision-ai.streamlit.app/
+
+**Detect. Track. Analyze. Improve.**
+
+---
+
+
 ## 1. Project Introduction
 
 The project combines an Ultralytics pretrained YOLO pose model with OpenCV, NumPy, and Streamlit. It supports image upload, video processing, webcam capture, coordinate tables, angle measurements, posture analysis, and exercise state tracking.
