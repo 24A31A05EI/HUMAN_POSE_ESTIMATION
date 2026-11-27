@@ -151,3 +151,40 @@ hr {
     fill: #86efac !important;
     -webkit-text-fill-color: #86efac !important;
 }
+
+/* MAIN FEATURES - improve card text visibility */
+
+[data-testid="stMetric"] {
+    color: #ffffff !important;
+}
+
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] *,
+[data-testid="stMetricValue"],
+[data-testid="stMetricValue"] * {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+[data-testid="stMetricDelta"],
+[data-testid="stMetricDelta"] * {
+    color: #86efac !important;
+    -webkit-text-fill-color: #86efac !important;
+}
+
+/* Feature card text */
+.feature-card,
+.feature-card * {
+    color: #ffffff !important;
+}
+
+/* PROJECT OVERVIEW - improve container text */
+.project-overview,
+.project-overview * {
+    color: #ffffff !important;
+}
+
+/* Improve text in general dashboard containers */
+.stApp [data-testid="stVerticalBlockBorderWrapper"] {
+    color: #ffffff !important;
+}
