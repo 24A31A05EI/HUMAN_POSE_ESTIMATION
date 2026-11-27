@@ -136,3 +136,18 @@ hr {
     color: #9b9cff !important;
 }
 
+
+/* Fix text inside metric delta badges */
+[data-testid="stMetricDelta"] {
+    background: rgba(16, 185, 129, 0.16) !important;
+    border-radius: 20px !important;
+    padding: 3px 9px !important;
+    color: #86efac !important;
+}
+
+[data-testid="stMetricDelta"] *,
+[data-testid="stMetricDelta"] svg {
+    color: #86efac !important;
+    fill: #86efac !important;
+    -webkit-text-fill-color: #86efac !important;
+}
