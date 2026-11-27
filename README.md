@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Human Pose Estimation Using Deep Learning
 
 A complete Streamlit application for detecting 17 COCO-format human body keypoints, drawing skeletons, calculating joint angles, classifying simple postures, and estimating repetitions for squats and bicep curls.
@@ -166,3 +167,7 @@ Open `http://localhost:8501`.
 pip install pytest
 pytest -q
 ```
+=======
+# HUMAN_POSE_ESTIMATION
+Human Pose Estimation Project
+>>>>>>> a2fd82d61ec84b7a7b07e07f9c151fb771e6049e
