@@ -188,3 +188,100 @@ hr {
 .stApp [data-testid="stVerticalBlockBorderWrapper"] {
     color: #ffffff !important;
 }
+
+/* =====================================
+   GLOBAL TEXT VISIBILITY FIX
+   Applies to all application pages
+===================================== */
+
+/* General text */
+.stApp {
+    color: #F8FAFC !important;
+}
+
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp h4,
+.stApp h5,
+.stApp h6,
+.stApp p,
+.stApp li,
+.stApp label,
+.stApp [data-testid="stMarkdownContainer"] {
+    color: #F8FAFC !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] * {
+    color: #F8FAFC !important;
+}
+
+/* Widget labels */
+[data-testid="stWidgetLabel"],
+[data-testid="stWidgetLabel"] * {
+    color: #F8FAFC !important;
+}
+
+/* Cards and containers */
+[data-testid="stMetric"],
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"],
+[data-testid="stVerticalBlockBorderWrapper"] {
+    color: #F8FAFC !important;
+}
+
+/* Metric badge */
+[data-testid="stMetricDelta"],
+[data-testid="stMetricDelta"] * {
+    color: #86EFAC !important;
+    -webkit-text-fill-color: #86EFAC !important;
+}
+
+/* Tables and dataframes */
+[data-testid="stDataFrame"],
+[data-testid="stTable"] {
+    color: #F8FAFC !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    color: #F8FAFC !important;
+}
+
+/* Select boxes and dropdowns */
+[data-baseweb="select"] * {
+    color: #F8FAFC !important;
+}
+
+/* Text input fields */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    color: #F8FAFC !important;
+    background-color: #17243A !important;
+}
+
+/* Buttons */
+.stButton button {
+    color: #FFFFFF !important;
+}
+
+/* Sliders and uploaders */
+[data-testid="stSlider"] *,
+[data-testid="stFileUploader"] label {
+    color: #F8FAFC !important;
+}
+
+/* Expander */
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary * {
+    color: #F8FAFC !important;
+}
+
+/* Captions */
+.stCaption,
+[data-testid="stCaptionContainer"] {
+    color: #CBD5E1 !important;
+}
+
